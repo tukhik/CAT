@@ -1,6 +1,5 @@
 {
-  "homepage": "http://nare-stepanyan.github.io/cats",
-  "name": "cats",
+  "name": "cat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -26,7 +26,7 @@ function ImageBox(props) {
         <>
           <ImageList>{imgList}</ImageList>
           <LoadMore onClick={handleClick}>
-            <a href="#">More images...</a>
+            <booton>More images...</booton>
           </LoadMore>
         </>
       ) : (
@@ -59,7 +59,7 @@ const ImageList = styled.div`
 
 const LoadMore = styled.div`
   margin: 0 auto;
-  a {
+  booton {
     display: inline-block;
     padding: 0.75rem 1.25rem;
     border-radius: 10rem;

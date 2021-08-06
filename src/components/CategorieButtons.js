@@ -8,6 +8,7 @@ function CategorieButtons(props) {
   const { categories } = props;
   useEffect(() => {
     props.getCategories();
+     // eslint-disable-next-line
   }, []);
 
   let categoryList = categories.map((el) => {

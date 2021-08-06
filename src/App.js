@@ -1,14 +1,8 @@
 import styled from "styled-components";
-
-
 import CategorieButtons from "./components/CategorieButtons";
 import ImageBox from "./components/ImageBox";
 
-
-
 function App() {
-
-
   return (
     <GeneralBox>
       <CategorieButtons />
